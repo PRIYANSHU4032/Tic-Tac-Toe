@@ -1,0 +1,100 @@
+
+.tooltip-text {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    z-index: 1;
+    width: 200px;
+    text-align: center;
+}
+
+.tooltip-icon:hover + .tooltip-text {
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: center; /* Center the content horizontally */
+}
+
+.error-tooltip {
+    color: #fff;
+    background-color: #b80f0f; 
+    border-radius: 4px;
+    position: relative;
+    margin-top: -100px; /* Adjust this value as needed */
+    width: 10px;
+}
+
+.error-text {
+    display: none;
+    /* Other styles */
+}
+
+.error-tooltip:hover +.tooltip-text {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+.container {
+    max-width: 600px;
+    margin: 200px auto; /* Add margin from top and center horizontally */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: center; /* Center the content horizontally */
+}
+
+input[type="text"],
+select {
+    width: 80%; /* Decrease the width of input fields and select dropdowns */
+    margin: 0 auto; /* Center the elements horizontally */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left; /* Align labels to the left */
+    width: 80%; /* Set width to match input fields and select dropdowns */
+}
+
+button[type="submit"] {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto 0;
+}
+
+button[type="submit"]:hover {
+    background-color: #0052a3;
+}
+

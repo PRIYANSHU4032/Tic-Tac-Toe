@@ -73,7 +73,7 @@ const checkWinner = ()=>{
             }
         }
 
-        if(count >= 9){
+        if(count > 9){
             msgid.innerText = "Match is Draw";
             msg.classList.remove("hide");
             disablebox();
